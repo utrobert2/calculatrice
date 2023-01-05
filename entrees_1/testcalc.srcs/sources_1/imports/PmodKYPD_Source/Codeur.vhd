@@ -21,15 +21,15 @@ use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.STD_LOGIC_ARITH.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
-entity Decoder is
+entity Codeur is
     Port (
 			  clk : in  STD_LOGIC;
           Row : in  STD_LOGIC_VECTOR (3 downto 0);
 			 Col : out  STD_LOGIC_VECTOR (3 downto 0);
           chiffre : out  STD_LOGIC_VECTOR (3 downto 0));
-end Decoder;
+end Codeur;
 
-architecture Behavioral of Decoder is
+architecture Behavioral of Codeur is
 
 signal sclk :STD_LOGIC_VECTOR(19 downto 0);
 begin

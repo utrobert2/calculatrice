@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2019.2 (lin64) Build 2708876 Wed Nov  6 21:39:14 MST 2019
-| Date             : Sat Dec 17 20:48:33 2022
+| Date             : Thu Jan  5 14:20:44 2023
 | Host             : portable-polytech running 64-bit Ubuntu 20.04.5 LTS
 | Command          : report_power -file PmodKYPD_power_routed.rpt -pb PmodKYPD_power_summary_routed.pb -rpx PmodKYPD_power_routed.rpx
 | Design           : PmodKYPD

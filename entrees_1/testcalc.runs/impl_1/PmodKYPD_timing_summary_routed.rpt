@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.2 (lin64) Build 2708876 Wed Nov  6 21:39:14 MST 2019
-| Date         : Sat Dec 17 20:48:33 2022
+| Date         : Thu Jan  5 14:20:44 2023
 | Host         : portable-polytech running 64-bit Ubuntu 20.04.5 LTS
 | Command      : report_timing_summary -max_paths 10 -file PmodKYPD_timing_summary_routed.rpt -pb PmodKYPD_timing_summary_routed.pb -rpx PmodKYPD_timing_summary_routed.rpx -warn_on_violation
 | Design       : PmodKYPD
@@ -193,7 +193,7 @@ Max Delay Paths
 Slack (MET) :             4.540ns  (required time - arrival time)
   Source:                 C0/sclk_reg[7]/C
                             (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
-  Destination:            C0/DecodeOut_reg[2]/D
+  Destination:            C0/chiffre_reg[2]/D
                             (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
   Path Group:             sys_clk_pin
   Path Type:              Setup (Max at Slow Process Corner)
@@ -228,11 +228,11 @@ Slack (MET) :             4.540ns  (required time - arrival time)
                          net (fo=7, routed)           1.033     8.225    C0/Col[3]_i_8_n_0
     SLICE_X15Y104        LUT4 (Prop_lut4_I1_O)        0.152     8.377 f  C0/Col[3]_i_2/O
                          net (fo=10, routed)          1.028     9.405    C0/Col[3]_i_2_n_0
-    SLICE_X17Y103        LUT6 (Prop_lut6_I2_O)        0.332     9.737 r  C0/DecodeOut[2]_i_4/O
-                         net (fo=1, routed)           0.817    10.555    C0/DecodeOut[2]_i_4_n_0
-    SLICE_X16Y102        LUT6 (Prop_lut6_I3_O)        0.124    10.679 r  C0/DecodeOut[2]_i_1/O
-                         net (fo=1, routed)           0.000    10.679    C0/DecodeOut[2]_i_1_n_0
-    SLICE_X16Y102        FDRE                                         r  C0/DecodeOut_reg[2]/D
+    SLICE_X17Y103        LUT6 (Prop_lut6_I2_O)        0.332     9.737 r  C0/chiffre[2]_i_4/O
+                         net (fo=1, routed)           0.817    10.555    C0/chiffre[2]_i_4_n_0
+    SLICE_X16Y102        LUT6 (Prop_lut6_I3_O)        0.124    10.679 r  C0/chiffre[2]_i_1/O
+                         net (fo=1, routed)           0.000    10.679    C0/chiffre[2]_i_1_n_0
+    SLICE_X16Y102        FDRE                                         r  C0/chiffre_reg[2]/D
   -------------------------------------------------------------------    -------------------
 
                          (clock sys_clk_pin rise edge)
@@ -243,10 +243,10 @@ Slack (MET) :             4.540ns  (required time - arrival time)
                          net (fo=1, routed)           1.862    13.250    clk_IBUF
     BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.091    13.341 r  clk_IBUF_BUFG_inst/O
                          net (fo=28, routed)          1.615    14.956    C0/clk_IBUF_BUFG
-    SLICE_X16Y102        FDRE                                         r  C0/DecodeOut_reg[2]/C
+    SLICE_X16Y102        FDRE                                         r  C0/chiffre_reg[2]/C
                          clock pessimism              0.267    15.223    
                          clock uncertainty           -0.035    15.188    
-    SLICE_X16Y102        FDRE (Setup_fdre_C_D)        0.031    15.219    C0/DecodeOut_reg[2]
+    SLICE_X16Y102        FDRE (Setup_fdre_C_D)        0.031    15.219    C0/chiffre_reg[2]
   -------------------------------------------------------------------
                          required time                         15.219    
                          arrival time                         -10.679    
@@ -256,7 +256,7 @@ Slack (MET) :             4.540ns  (required time - arrival time)
 Slack (MET) :             4.985ns  (required time - arrival time)
   Source:                 C0/sclk_reg[7]/C
                             (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
-  Destination:            C0/DecodeOut_reg[0]/D
+  Destination:            C0/chiffre_reg[0]/D
                             (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
   Path Group:             sys_clk_pin
   Path Type:              Setup (Max at Slow Process Corner)
@@ -291,11 +291,11 @@ Slack (MET) :             4.985ns  (required time - arrival time)
                          net (fo=7, routed)           1.033     8.225    C0/Col[3]_i_8_n_0
     SLICE_X15Y104        LUT4 (Prop_lut4_I1_O)        0.152     8.377 f  C0/Col[3]_i_2/O
                          net (fo=10, routed)          0.632     9.009    C0/Col[3]_i_2_n_0
-    SLICE_X17Y103        LUT6 (Prop_lut6_I5_O)        0.332     9.341 r  C0/DecodeOut[2]_i_3/O
-                         net (fo=3, routed)           0.769    10.110    C0/DecodeOut[2]_i_3_n_0
-    SLICE_X16Y102        LUT6 (Prop_lut6_I2_O)        0.124    10.234 r  C0/DecodeOut[0]_i_1/O
-                         net (fo=1, routed)           0.000    10.234    C0/DecodeOut[0]_i_1_n_0
-    SLICE_X16Y102        FDRE                                         r  C0/DecodeOut_reg[0]/D
+    SLICE_X17Y103        LUT6 (Prop_lut6_I5_O)        0.332     9.341 r  C0/chiffre[2]_i_3/O
+                         net (fo=3, routed)           0.769    10.110    C0/chiffre[2]_i_3_n_0
+    SLICE_X16Y102        LUT6 (Prop_lut6_I2_O)        0.124    10.234 r  C0/chiffre[0]_i_1/O
+                         net (fo=1, routed)           0.000    10.234    C0/chiffre[0]_i_1_n_0
+    SLICE_X16Y102        FDRE                                         r  C0/chiffre_reg[0]/D
   -------------------------------------------------------------------    -------------------
 
                          (clock sys_clk_pin rise edge)
@@ -306,10 +306,10 @@ Slack (MET) :             4.985ns  (required time - arrival time)
                          net (fo=1, routed)           1.862    13.250    clk_IBUF
     BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.091    13.341 r  clk_IBUF_BUFG_inst/O
                          net (fo=28, routed)          1.615    14.956    C0/clk_IBUF_BUFG
-    SLICE_X16Y102        FDRE                                         r  C0/DecodeOut_reg[0]/C
+    SLICE_X16Y102        FDRE                                         r  C0/chiffre_reg[0]/C
                          clock pessimism              0.267    15.223    
                          clock uncertainty           -0.035    15.188    
-    SLICE_X16Y102        FDRE (Setup_fdre_C_D)        0.031    15.219    C0/DecodeOut_reg[0]
+    SLICE_X16Y102        FDRE (Setup_fdre_C_D)        0.031    15.219    C0/chiffre_reg[0]
   -------------------------------------------------------------------
                          required time                         15.219    
                          arrival time                         -10.234    
@@ -319,7 +319,7 @@ Slack (MET) :             4.985ns  (required time - arrival time)
 Slack (MET) :             5.071ns  (required time - arrival time)
   Source:                 C0/sclk_reg[7]/C
                             (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
-  Destination:            C0/DecodeOut_reg[1]/D
+  Destination:            C0/chiffre_reg[1]/D
                             (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
   Path Group:             sys_clk_pin
   Path Type:              Setup (Max at Slow Process Corner)
@@ -354,11 +354,11 @@ Slack (MET) :             5.071ns  (required time - arrival time)
                          net (fo=7, routed)           1.033     8.225    C0/Col[3]_i_8_n_0
     SLICE_X15Y104        LUT4 (Prop_lut4_I1_O)        0.152     8.377 f  C0/Col[3]_i_2/O
                          net (fo=10, routed)          0.632     9.009    C0/Col[3]_i_2_n_0
-    SLICE_X17Y103        LUT6 (Prop_lut6_I5_O)        0.332     9.341 r  C0/DecodeOut[2]_i_3/O
-                         net (fo=3, routed)           0.680    10.021    C0/DecodeOut[2]_i_3_n_0
-    SLICE_X16Y103        LUT6 (Prop_lut6_I1_O)        0.124    10.145 r  C0/DecodeOut[1]_i_1/O
-                         net (fo=1, routed)           0.000    10.145    C0/DecodeOut[1]_i_1_n_0
-    SLICE_X16Y103        FDRE                                         r  C0/DecodeOut_reg[1]/D
+    SLICE_X17Y103        LUT6 (Prop_lut6_I5_O)        0.332     9.341 r  C0/chiffre[2]_i_3/O
+                         net (fo=3, routed)           0.680    10.021    C0/chiffre[2]_i_3_n_0
+    SLICE_X16Y103        LUT6 (Prop_lut6_I1_O)        0.124    10.145 r  C0/chiffre[1]_i_1/O
+                         net (fo=1, routed)           0.000    10.145    C0/chiffre[1]_i_1_n_0
+    SLICE_X16Y103        FDRE                                         r  C0/chiffre_reg[1]/D
   -------------------------------------------------------------------    -------------------
 
                          (clock sys_clk_pin rise edge)
@@ -369,10 +369,10 @@ Slack (MET) :             5.071ns  (required time - arrival time)
                          net (fo=1, routed)           1.862    13.250    clk_IBUF
     BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.091    13.341 r  clk_IBUF_BUFG_inst/O
                          net (fo=28, routed)          1.614    14.955    C0/clk_IBUF_BUFG
-    SLICE_X16Y103        FDRE                                         r  C0/DecodeOut_reg[1]/C
+    SLICE_X16Y103        FDRE                                         r  C0/chiffre_reg[1]/C
                          clock pessimism              0.267    15.222    
                          clock uncertainty           -0.035    15.187    
-    SLICE_X16Y103        FDRE (Setup_fdre_C_D)        0.029    15.216    C0/DecodeOut_reg[1]
+    SLICE_X16Y103        FDRE (Setup_fdre_C_D)        0.029    15.216    C0/chiffre_reg[1]
   -------------------------------------------------------------------
                          required time                         15.216    
                          arrival time                         -10.145    
@@ -626,7 +626,7 @@ Slack (MET) :             5.232ns  (required time - arrival time)
 Slack (MET) :             5.518ns  (required time - arrival time)
   Source:                 C0/sclk_reg[7]/C
                             (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
-  Destination:            C0/DecodeOut_reg[3]/D
+  Destination:            C0/chiffre_reg[3]/D
                             (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
   Path Group:             sys_clk_pin
   Path Type:              Setup (Max at Slow Process Corner)
@@ -661,11 +661,11 @@ Slack (MET) :             5.518ns  (required time - arrival time)
                          net (fo=7, routed)           1.033     8.225    C0/Col[3]_i_8_n_0
     SLICE_X15Y104        LUT4 (Prop_lut4_I3_O)        0.124     8.349 f  C0/Col[3]_i_6/O
                          net (fo=8, routed)           0.689     9.038    C0/Col[1]_i_1_n_0
-    SLICE_X17Y103        LUT6 (Prop_lut6_I0_O)        0.124     9.162 r  C0/DecodeOut[3]_i_2/O
-                         net (fo=1, routed)           0.416     9.578    C0/DecodeOut[3]_i_2_n_0
-    SLICE_X16Y102        LUT5 (Prop_lut5_I1_O)        0.124     9.702 r  C0/DecodeOut[3]_i_1/O
-                         net (fo=1, routed)           0.000     9.702    C0/DecodeOut[3]_i_1_n_0
-    SLICE_X16Y102        FDRE                                         r  C0/DecodeOut_reg[3]/D
+    SLICE_X17Y103        LUT6 (Prop_lut6_I0_O)        0.124     9.162 r  C0/chiffre[3]_i_2/O
+                         net (fo=1, routed)           0.416     9.578    C0/chiffre[3]_i_2_n_0
+    SLICE_X16Y102        LUT5 (Prop_lut5_I1_O)        0.124     9.702 r  C0/chiffre[3]_i_1/O
+                         net (fo=1, routed)           0.000     9.702    C0/chiffre[3]_i_1_n_0
+    SLICE_X16Y102        FDRE                                         r  C0/chiffre_reg[3]/D
   -------------------------------------------------------------------    -------------------
 
                          (clock sys_clk_pin rise edge)
@@ -676,10 +676,10 @@ Slack (MET) :             5.518ns  (required time - arrival time)
                          net (fo=1, routed)           1.862    13.250    clk_IBUF
     BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.091    13.341 r  clk_IBUF_BUFG_inst/O
                          net (fo=28, routed)          1.615    14.956    C0/clk_IBUF_BUFG
-    SLICE_X16Y102        FDRE                                         r  C0/DecodeOut_reg[3]/C
+    SLICE_X16Y102        FDRE                                         r  C0/chiffre_reg[3]/C
                          clock pessimism              0.267    15.223    
                          clock uncertainty           -0.035    15.188    
-    SLICE_X16Y102        FDRE (Setup_fdre_C_D)        0.032    15.220    C0/DecodeOut_reg[3]
+    SLICE_X16Y102        FDRE (Setup_fdre_C_D)        0.032    15.220    C0/chiffre_reg[3]
   -------------------------------------------------------------------
                          required time                         15.220    
                          arrival time                          -9.702    
@@ -1351,14 +1351,14 @@ Min Period        n/a     FDRE/C   n/a            1.000         10.000      9.00
 Min Period        n/a     FDRE/C   n/a            1.000         10.000      9.000      SLICE_X14Y104  C0/Col_reg[1]/C
 Min Period        n/a     FDRE/C   n/a            1.000         10.000      9.000      SLICE_X14Y104  C0/Col_reg[2]/C
 Min Period        n/a     FDRE/C   n/a            1.000         10.000      9.000      SLICE_X14Y104  C0/Col_reg[3]/C
-Min Period        n/a     FDRE/C   n/a            1.000         10.000      9.000      SLICE_X16Y102  C0/DecodeOut_reg[0]/C
-Min Period        n/a     FDRE/C   n/a            1.000         10.000      9.000      SLICE_X16Y103  C0/DecodeOut_reg[1]/C
-Min Period        n/a     FDRE/C   n/a            1.000         10.000      9.000      SLICE_X16Y102  C0/DecodeOut_reg[2]/C
-Min Period        n/a     FDRE/C   n/a            1.000         10.000      9.000      SLICE_X16Y102  C0/DecodeOut_reg[3]/C
+Min Period        n/a     FDRE/C   n/a            1.000         10.000      9.000      SLICE_X16Y102  C0/chiffre_reg[0]/C
+Min Period        n/a     FDRE/C   n/a            1.000         10.000      9.000      SLICE_X16Y103  C0/chiffre_reg[1]/C
+Min Period        n/a     FDRE/C   n/a            1.000         10.000      9.000      SLICE_X16Y102  C0/chiffre_reg[2]/C
+Min Period        n/a     FDRE/C   n/a            1.000         10.000      9.000      SLICE_X16Y102  C0/chiffre_reg[3]/C
 Min Period        n/a     FDRE/C   n/a            1.000         10.000      9.000      SLICE_X13Y102  C0/sclk_reg[0]/C
-Low Pulse Width   Slow    FDRE/C   n/a            0.500         5.000       4.500      SLICE_X16Y102  C0/DecodeOut_reg[0]/C
-Low Pulse Width   Slow    FDRE/C   n/a            0.500         5.000       4.500      SLICE_X16Y102  C0/DecodeOut_reg[2]/C
-Low Pulse Width   Slow    FDRE/C   n/a            0.500         5.000       4.500      SLICE_X16Y102  C0/DecodeOut_reg[3]/C
+Low Pulse Width   Slow    FDRE/C   n/a            0.500         5.000       4.500      SLICE_X16Y102  C0/chiffre_reg[0]/C
+Low Pulse Width   Slow    FDRE/C   n/a            0.500         5.000       4.500      SLICE_X16Y102  C0/chiffre_reg[2]/C
+Low Pulse Width   Slow    FDRE/C   n/a            0.500         5.000       4.500      SLICE_X16Y102  C0/chiffre_reg[3]/C
 Low Pulse Width   Slow    FDRE/C   n/a            0.500         5.000       4.500      SLICE_X13Y102  C0/sclk_reg[0]/C
 Low Pulse Width   Slow    FDRE/C   n/a            0.500         5.000       4.500      SLICE_X13Y102  C0/sclk_reg[1]/C
 Low Pulse Width   Slow    FDRE/C   n/a            0.500         5.000       4.500      SLICE_X13Y102  C0/sclk_reg[2]/C
@@ -1370,7 +1370,7 @@ High Pulse Width  Slow    FDRE/C   n/a            0.500         5.000       4.50
 High Pulse Width  Slow    FDRE/C   n/a            0.500         5.000       4.500      SLICE_X14Y104  C0/Col_reg[1]/C
 High Pulse Width  Slow    FDRE/C   n/a            0.500         5.000       4.500      SLICE_X14Y104  C0/Col_reg[2]/C
 High Pulse Width  Slow    FDRE/C   n/a            0.500         5.000       4.500      SLICE_X14Y104  C0/Col_reg[3]/C
-High Pulse Width  Slow    FDRE/C   n/a            0.500         5.000       4.500      SLICE_X16Y103  C0/DecodeOut_reg[1]/C
+High Pulse Width  Slow    FDRE/C   n/a            0.500         5.000       4.500      SLICE_X16Y103  C0/chiffre_reg[1]/C
 High Pulse Width  Slow    FDRE/C   n/a            0.500         5.000       4.500      SLICE_X13Y104  C0/sclk_reg[10]/C
 High Pulse Width  Slow    FDRE/C   n/a            0.500         5.000       4.500      SLICE_X13Y104  C0/sclk_reg[11]/C
 High Pulse Width  Slow    FDRE/C   n/a            0.500         5.000       4.500      SLICE_X13Y105  C0/sclk_reg[12]/C

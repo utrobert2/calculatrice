@@ -20,7 +20,7 @@ use IEEE.STD_LOGIC_ARITH.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
 
-entity DisplayController is
+entity Decodeur is
     Port ( 
 			  --output from the Decoder
 			  DispVal : in  STD_LOGIC_VECTOR (3 downto 0);
@@ -28,9 +28,9 @@ entity DisplayController is
 			  anode: out std_logic_vector(3 downto 0);
 			  --controls which digit to display
            segOut : out  STD_LOGIC_VECTOR (6 downto 0)); 
-end DisplayController;
+end Decodeur;
 
-architecture Behavioral of DisplayController is
+architecture Behavioral of Decodeur is
 begin
 	-- only display the leftmost digit
 	anode<="1110";

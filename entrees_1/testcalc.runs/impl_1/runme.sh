@@ -20,7 +20,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/tools/Xilinx/Vivado/2019.2/bin/testcalc/testcalc.runs/impl_1'
+HD_PWD='/home/portable014/Documents/Xilinx/entrees_1/testcalc.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

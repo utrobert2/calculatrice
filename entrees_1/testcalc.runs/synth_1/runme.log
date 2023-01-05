@@ -15,21 +15,21 @@ Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 234352 
+INFO: Helper process launched with PID 16794 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1835.273 ; gain = 202.715 ; free physical = 223 ; free virtual = 36603
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1835.301 ; gain = 202.715 ; free physical = 2270 ; free virtual = 41587
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'PmodKYPD' [/tools/Xilinx/Vivado/2019.2/bin/testcalc/testcalc.srcs/sources_1/imports/PmodKYPD_Source/PmodKYPD.vhd:29]
-INFO: [Synth 8-3491] module 'Decoder' declared at '/tools/Xilinx/Vivado/2019.2/bin/testcalc/testcalc.srcs/sources_1/imports/PmodKYPD_Source/Decoder.vhd:24' bound to instance 'C0' of component 'Decoder' [/tools/Xilinx/Vivado/2019.2/bin/testcalc/testcalc.srcs/sources_1/imports/PmodKYPD_Source/PmodKYPD.vhd:50]
-INFO: [Synth 8-638] synthesizing module 'Decoder' [/tools/Xilinx/Vivado/2019.2/bin/testcalc/testcalc.srcs/sources_1/imports/PmodKYPD_Source/Decoder.vhd:32]
-INFO: [Synth 8-256] done synthesizing module 'Decoder' (1#1) [/tools/Xilinx/Vivado/2019.2/bin/testcalc/testcalc.srcs/sources_1/imports/PmodKYPD_Source/Decoder.vhd:32]
-INFO: [Synth 8-3491] module 'DisplayController' declared at '/tools/Xilinx/Vivado/2019.2/bin/testcalc/testcalc.srcs/sources_1/imports/PmodKYPD_Source/DisplayController.vhd:23' bound to instance 'C1' of component 'DisplayController' [/tools/Xilinx/Vivado/2019.2/bin/testcalc/testcalc.srcs/sources_1/imports/PmodKYPD_Source/PmodKYPD.vhd:51]
-INFO: [Synth 8-638] synthesizing module 'DisplayController' [/tools/Xilinx/Vivado/2019.2/bin/testcalc/testcalc.srcs/sources_1/imports/PmodKYPD_Source/DisplayController.vhd:33]
-INFO: [Synth 8-226] default block is never used [/tools/Xilinx/Vivado/2019.2/bin/testcalc/testcalc.srcs/sources_1/imports/PmodKYPD_Source/DisplayController.vhd:40]
-INFO: [Synth 8-256] done synthesizing module 'DisplayController' (2#1) [/tools/Xilinx/Vivado/2019.2/bin/testcalc/testcalc.srcs/sources_1/imports/PmodKYPD_Source/DisplayController.vhd:33]
-INFO: [Synth 8-256] done synthesizing module 'PmodKYPD' (3#1) [/tools/Xilinx/Vivado/2019.2/bin/testcalc/testcalc.srcs/sources_1/imports/PmodKYPD_Source/PmodKYPD.vhd:29]
+INFO: [Synth 8-638] synthesizing module 'PmodKYPD' [/home/portable014/Documents/Xilinx/entrees_1/testcalc.srcs/sources_1/imports/PmodKYPD_Source/PmodKYPD.vhd:29]
+INFO: [Synth 8-3491] module 'Decoder' declared at '/home/portable014/Documents/Xilinx/entrees_1/testcalc.srcs/sources_1/imports/PmodKYPD_Source/Decoder.vhd:24' bound to instance 'C0' of component 'Decoder' [/home/portable014/Documents/Xilinx/entrees_1/testcalc.srcs/sources_1/imports/PmodKYPD_Source/PmodKYPD.vhd:50]
+INFO: [Synth 8-638] synthesizing module 'Decoder' [/home/portable014/Documents/Xilinx/entrees_1/testcalc.srcs/sources_1/imports/PmodKYPD_Source/Decoder.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'Decoder' (1#1) [/home/portable014/Documents/Xilinx/entrees_1/testcalc.srcs/sources_1/imports/PmodKYPD_Source/Decoder.vhd:32]
+INFO: [Synth 8-3491] module 'DisplayController' declared at '/home/portable014/Documents/Xilinx/entrees_1/testcalc.srcs/sources_1/imports/PmodKYPD_Source/DisplayController.vhd:23' bound to instance 'C1' of component 'DisplayController' [/home/portable014/Documents/Xilinx/entrees_1/testcalc.srcs/sources_1/imports/PmodKYPD_Source/PmodKYPD.vhd:51]
+INFO: [Synth 8-638] synthesizing module 'DisplayController' [/home/portable014/Documents/Xilinx/entrees_1/testcalc.srcs/sources_1/imports/PmodKYPD_Source/DisplayController.vhd:33]
+INFO: [Synth 8-226] default block is never used [/home/portable014/Documents/Xilinx/entrees_1/testcalc.srcs/sources_1/imports/PmodKYPD_Source/DisplayController.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'DisplayController' (2#1) [/home/portable014/Documents/Xilinx/entrees_1/testcalc.srcs/sources_1/imports/PmodKYPD_Source/DisplayController.vhd:33]
+INFO: [Synth 8-256] done synthesizing module 'PmodKYPD' (3#1) [/home/portable014/Documents/Xilinx/entrees_1/testcalc.srcs/sources_1/imports/PmodKYPD_Source/PmodKYPD.vhd:29]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1898.023 ; gain = 265.465 ; free physical = 259 ; free virtual = 36640
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 1898.051 ; gain = 265.465 ; free physical = 2298 ; free virtual = 41618
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -42,45 +42,45 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1900.992 ; gain = 268.434 ; free physical = 258 ; free virtual = 36638
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 1901.020 ; gain = 268.434 ; free physical = 2297 ; free virtual = 41622
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1900.992 ; gain = 268.434 ; free physical = 258 ; free virtual = 36638
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 1901.020 ; gain = 268.434 ; free physical = 2297 ; free virtual = 41622
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1900.992 ; gain = 0.000 ; free physical = 251 ; free virtual = 36632
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1901.020 ; gain = 0.000 ; free physical = 2290 ; free virtual = 41615
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [/tools/Xilinx/Vivado/2019.2/bin/testcalc/testcalc.srcs/constrs_1/imports/new/basys3.xdc]
-Finished Parsing XDC File [/tools/Xilinx/Vivado/2019.2/bin/testcalc/testcalc.srcs/constrs_1/imports/new/basys3.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/tools/Xilinx/Vivado/2019.2/bin/testcalc/testcalc.srcs/constrs_1/imports/new/basys3.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/PmodKYPD_propImpl.xdc].
+Parsing XDC File [/home/portable014/Documents/Xilinx/entrees_1/testcalc.srcs/constrs_1/imports/new/basys3.xdc]
+Finished Parsing XDC File [/home/portable014/Documents/Xilinx/entrees_1/testcalc.srcs/constrs_1/imports/new/basys3.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/portable014/Documents/Xilinx/entrees_1/testcalc.srcs/constrs_1/imports/new/basys3.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/PmodKYPD_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/PmodKYPD_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2060.773 ; gain = 0.000 ; free physical = 166 ; free virtual = 36546
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2060.801 ; gain = 0.000 ; free physical = 2181 ; free virtual = 41518
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2060.773 ; gain = 0.000 ; free physical = 166 ; free virtual = 36546
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2060.801 ; gain = 0.000 ; free physical = 2181 ; free virtual = 41518
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 2060.773 ; gain = 428.215 ; free physical = 230 ; free virtual = 36611
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 2060.801 ; gain = 428.215 ; free physical = 2240 ; free virtual = 41576
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 2060.773 ; gain = 428.215 ; free physical = 230 ; free virtual = 36611
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 2060.801 ; gain = 428.215 ; free physical = 2240 ; free virtual = 41576
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 2060.773 ; gain = 428.215 ; free physical = 230 ; free virtual = 36611
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 2060.801 ; gain = 428.215 ; free physical = 2240 ; free virtual = 41576
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 2060.773 ; gain = 428.215 ; free physical = 223 ; free virtual = 36604
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:23 . Memory (MB): peak = 2060.801 ; gain = 428.215 ; free physical = 2223 ; free virtual = 41560
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -143,7 +143,7 @@ WARNING: [Synth 8-3917] design PmodKYPD has port an[2] driven by constant 1
 WARNING: [Synth 8-3917] design PmodKYPD has port an[1] driven by constant 1
 WARNING: [Synth 8-3917] design PmodKYPD has port an[0] driven by constant 0
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 2060.773 ; gain = 428.215 ; free physical = 210 ; free virtual = 36596
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 2060.801 ; gain = 428.215 ; free physical = 2193 ; free virtual = 41538
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -155,13 +155,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 2060.773 ; gain = 428.215 ; free physical = 161 ; free virtual = 36473
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:35 . Memory (MB): peak = 2060.801 ; gain = 428.215 ; free physical = 2089 ; free virtual = 41440
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 2060.773 ; gain = 428.215 ; free physical = 190 ; free virtual = 36474
+Finished Timing Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:36 . Memory (MB): peak = 2060.801 ; gain = 428.215 ; free physical = 2079 ; free virtual = 41436
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -173,7 +173,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 2060.773 ; gain = 428.215 ; free physical = 189 ; free virtual = 36473
+Finished Technology Mapping : Time (s): cpu = 00:00:29 ; elapsed = 00:00:36 . Memory (MB): peak = 2060.801 ; gain = 428.215 ; free physical = 2078 ; free virtual = 41436
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -197,13 +197,13 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 2060.773 ; gain = 428.215 ; free physical = 190 ; free virtual = 36473
+Finished IO Insertion : Time (s): cpu = 00:00:34 ; elapsed = 00:00:40 . Memory (MB): peak = 2060.801 ; gain = 428.215 ; free physical = 2084 ; free virtual = 41434
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 2060.773 ; gain = 428.215 ; free physical = 190 ; free virtual = 36473
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:34 ; elapsed = 00:00:40 . Memory (MB): peak = 2060.801 ; gain = 428.215 ; free physical = 2084 ; free virtual = 41434
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -222,25 +222,25 @@ Report Check Netlist:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 2060.773 ; gain = 428.215 ; free physical = 190 ; free virtual = 36473
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:34 ; elapsed = 00:00:40 . Memory (MB): peak = 2060.801 ; gain = 428.215 ; free physical = 2084 ; free virtual = 41434
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 2060.773 ; gain = 428.215 ; free physical = 190 ; free virtual = 36473
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:34 ; elapsed = 00:00:40 . Memory (MB): peak = 2060.801 ; gain = 428.215 ; free physical = 2084 ; free virtual = 41434
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 2060.773 ; gain = 428.215 ; free physical = 190 ; free virtual = 36473
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:34 ; elapsed = 00:00:40 . Memory (MB): peak = 2060.801 ; gain = 428.215 ; free physical = 2084 ; free virtual = 41434
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 2060.773 ; gain = 428.215 ; free physical = 190 ; free virtual = 36473
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:34 ; elapsed = 00:00:40 . Memory (MB): peak = 2060.801 ; gain = 428.215 ; free physical = 2084 ; free virtual = 41434
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -278,28 +278,28 @@ Report Instance Areas:
 |3     |  C1     |DisplayController |     7|
 +------+---------+------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 2060.773 ; gain = 428.215 ; free physical = 190 ; free virtual = 36473
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:34 ; elapsed = 00:00:40 . Memory (MB): peak = 2060.801 ; gain = 428.215 ; free physical = 2084 ; free virtual = 41434
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 4 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 2060.773 ; gain = 268.434 ; free physical = 242 ; free virtual = 36525
-Synthesis Optimization Complete : Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 2060.773 ; gain = 428.215 ; free physical = 242 ; free virtual = 36525
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:31 ; elapsed = 00:00:37 . Memory (MB): peak = 2060.801 ; gain = 268.434 ; free physical = 2135 ; free virtual = 41485
+Synthesis Optimization Complete : Time (s): cpu = 00:00:34 ; elapsed = 00:00:41 . Memory (MB): peak = 2060.801 ; gain = 428.215 ; free physical = 2136 ; free virtual = 41486
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2060.773 ; gain = 0.000 ; free physical = 307 ; free virtual = 36591
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2060.801 ; gain = 0.000 ; free physical = 2201 ; free virtual = 41554
 INFO: [Netlist 29-17] Analyzing 5 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2060.773 ; gain = 0.000 ; free physical = 255 ; free virtual = 36539
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2060.801 ; gain = 0.000 ; free physical = 2143 ; free virtual = 41496
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
 22 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:29 . Memory (MB): peak = 2060.773 ; gain = 619.414 ; free physical = 389 ; free virtual = 36672
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2060.773 ; gain = 0.000 ; free physical = 389 ; free virtual = 36672
+synth_design: Time (s): cpu = 00:00:46 ; elapsed = 00:00:52 . Memory (MB): peak = 2060.801 ; gain = 622.414 ; free physical = 2275 ; free virtual = 41628
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2060.801 ; gain = 0.000 ; free physical = 2275 ; free virtual = 41628
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
-INFO: [Common 17-1381] The checkpoint '/tools/Xilinx/Vivado/2019.2/bin/testcalc/testcalc.runs/synth_1/PmodKYPD.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint '/home/portable014/Documents/Xilinx/entrees_1/testcalc.runs/synth_1/PmodKYPD.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file PmodKYPD_utilization_synth.rpt -pb PmodKYPD_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Sat Dec 17 20:47:32 2022...
+INFO: [Common 17-206] Exiting Vivado at Thu Jan  5 14:15:30 2023...
